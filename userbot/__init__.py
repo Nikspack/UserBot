@@ -52,7 +52,7 @@ API_KEY = os.environ.get("API_KEY", "2445803")
 
 API_HASH = os.environ.get("API_HASH", "2759fccb2f4b0d0ac69f3c94dac07ba2")
 
-STRING_SESSION = os.environ.get("STRING_SESSION", None)
+STRING_SESSION = os.environ.get("STRING_SESSION")
 
 LOGGER_GROUP = int(os.environ.get("LOGGER_GROUP", "0"))
 
